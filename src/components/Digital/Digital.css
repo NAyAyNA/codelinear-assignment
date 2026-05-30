@@ -1,0 +1,370 @@
+.digital-section {
+    max-width: 100%;
+    background-color: #E9F4F9;
+    margin: 80px auto; 
+}
+
+/* BANNER */
+  
+.section-banner {
+    height: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.section-banner span{
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    color: #000D12;
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.d-logo{
+    color: #00B4FD;
+    font-weight: 500;
+}
+
+/* MAIN CONTENT */
+  
+.digital-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+  
+/* LEFT */
+
+.digital-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px; 
+}
+  
+.digital-heading {
+    opacity: 95%;
+    color: #000D12;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -1%;
+    text-align: left;
+}
+  
+.digital-description {
+    opacity: 70%;
+    color: #000D12;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+  
+.digital-btn {
+    width: fit-content;
+    margin-top: 20px;
+    padding: 15px 51px;
+    gap: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    background-color: #00B4FD;
+
+}
+  
+.digital-link {
+    color: #00B4FD;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+
+/* RIGHT */
+  
+.digital-right {
+    width: fit-content;
+  
+    display: flex;
+    flex-direction: column;
+  
+    gap: 110px;
+}
+
+/* CARD */
+  
+.phone-feature-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    gap: 80px;
+}
+  
+.phone-feature-card.reverse {
+    flex-direction: row-reverse;
+}
+  
+.phone-image-wrapper {
+    flex-shrink: 0;
+}
+  
+.phone-image {
+    width: 180px;
+  
+    display: block;
+}
+  
+.card-content {
+    max-width: 269px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+  
+.card-title {
+    color: #000D12;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-desc {
+    opacity: 70%;
+    color: #000D12;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+  
+.feature-points {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+  
+.feature-point {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+
+    color: #000D12;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+  
+.check-icon {
+    width: 25px;
+    height: 25px;
+  
+    flex-shrink: 0;
+  
+    margin-top: 3px;
+}
+
+/* CONTACT */
+
+.digital-bottom {
+    padding: 80px;
+    border-radius: 20px;
+}
+
+/* RESPONSIVE */
+
+
+@media (max-width: 1200px) {
+
+    .digital-main {
+      gap: 60px;
+  
+      padding: 80px 40px;
+    }
+  
+    .digital-heading {
+      font-size: 46px;
+    }
+  
+    .banner-text {
+      font-size: 36px;
+    }
+  
+    .phone-feature-card {
+      gap: 50px;
+    }
+  }
+  
+  
+  
+@media (max-width: 992px) {
+  
+    .digital-main {
+      flex-direction: column;
+  
+      align-items: flex-start;
+  
+      padding: 80px 40px;
+  
+      gap: 80px;
+    }
+  
+    .digital-right {
+      width: 100%;
+  
+      gap: 80px;
+    }
+  
+    .section-banner {
+      height: auto;
+  
+      padding: 24px 20px;
+  
+      flex-wrap: wrap;
+  
+      gap: 16px;
+    }
+  
+    .banner-text {
+      font-size: 30px;
+    }
+  
+    .digital-heading {
+      font-size: 40px;
+    }
+  }
+  
+  
+  
+@media (max-width: 768px) {
+  
+    .digital-main {
+      padding: 60px 24px;
+    }
+  
+    .digital-heading {
+      font-size: 34px;
+    }
+  
+    .digital-description {
+      font-size: 15px;
+    }
+  
+    .banner-text {
+      font-size: 24px;
+    }
+  
+    .phone-feature-card,
+    .phone-feature-card.reverse {
+      flex-direction: column;
+  
+      text-align: center;
+  
+      gap: 32px;
+    }
+  
+    .card-content {
+      max-width: 100%;
+    }
+  
+    .phone-image {
+      width: 150px;
+    }
+  
+    .feature-point {
+      font-size: 15px;
+    }
+  
+    .digital-bottom {
+      padding: 60px 24px;
+    }
+  }
+  
+  
+  
+@media (max-width: 576px) {
+  
+    .digital-main {
+      padding: 50px 20px;
+    }
+  
+    .digital-heading {
+      font-size: 28px;
+  
+      line-height: 1.3;
+    }
+  
+    .digital-description {
+      font-size: 14px;
+    }
+  
+    .banner-text {
+      font-size: 18px;
+    }
+  
+    .section-banner {
+      justify-content: center;
+  
+      text-align: center;
+    }
+  
+    .digital-btn {
+      width: 100%;
+    }
+  
+    .phone-image {
+      width: 130px;
+    }
+  
+    .card-title {
+      font-size: 15px;
+    }
+  
+    .card-desc {
+      font-size: 14px;
+    }
+  
+    .feature-point {
+      font-size: 14px;
+    }
+  
+    .check-icon {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .digital-bottom {
+      padding: 50px 20px;
+    }
+}
